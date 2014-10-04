@@ -48,12 +48,12 @@ Use `foreman start` or `python server.py`. Your app should now be running on [lo
 curl -H "Content-Type: application/json" -d '{"answer":"997"}' http://hackers-job-apply.herokuapp.com/
 ```
 
-result
+result:
 
 ```
 dev.job@example.com
 ```
 
 ## TODO:
-- no deployment for user -> webapp with login?
+- no deployment for users -> webapp with login?
 
