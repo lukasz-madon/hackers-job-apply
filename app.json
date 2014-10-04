@@ -1,7 +1,12 @@
 {
-  "name": "Button Sample",
-  "description": "A barebones Node.js app using Express 4",
-  "repository": "https://github.com/heroku/button-sample",
-  "logo": "http://node-js-sample.herokuapp.com/node.svg",
-  "keywords": ["node", "express", "static"]
+  "name": "Hackers Job Apply",
+  "description": "Reduce the spam you get for your job posting by setting up a micro challenge. ",
+  "repository": "https://github.com/lukasz-madon/hackers-job-apply",
+  "logo": "http://flask.pocoo.org/static/logo/flask.png",
+  "keywords": ["python", "flask", "challenge", "jobs"],
+  "env": { 
+  	"QUESTION": "What is the largest 3 digit prime number?",
+  	"ANSWER": "997",
+  	"JOB_EMAIL": "dev.job@example.com"
+  }
 }
