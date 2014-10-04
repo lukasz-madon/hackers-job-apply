@@ -3,7 +3,7 @@ hackers-job-apply
 
 Reduce the spam you get for your job posting by setting up a micro challenge. 
 
-Companies very often include emails on the job page. As a result, you have browse through spam from recruiters
+Companies very often include emails on the job page. As a result, you have to browse through spam from recruiters
 and incompetent people. To filter them out set up a tiny task. Here is an example:
 
 ```
@@ -13,11 +13,17 @@ POST json to the server with the answer -> { 'answer': 'xxx' }
 
 ## How to use it?
 
-1. Use heroku deploy button 
+1. Use heroku deploy button (requires Heroku account).  
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 1. Change JOB_EMAIL to yours. Change ANSWER and QUESTION if you want to use different challenge.
+
+## Different challenges
+
+1. [Euler project](https://projecteuler.net/problems) is a great source of problems
+1. base64 solution
+1. [Something more fancy](https://trello.com/jobs/developer)  
 
 ## Deploying to Heroku (command line)
 
